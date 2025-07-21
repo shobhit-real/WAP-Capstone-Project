@@ -1,0 +1,79 @@
+@media (max-width: 1536px) {
+    .todo-input-box input {
+        width: 250px;
+    }
+    .primaryButton {
+        width: 7vw;
+    }
+}
+
+@media (max-width: 1280px) {
+    .primaryButton {
+        width: 8vw;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .todo-input-wrapper {
+        flex-direction: column;
+    }
+    .todo-input-box input {
+        width: 370px;
+    }
+    .primaryButton {
+        width: 15vw;
+    }
+    .primaryButton {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 600px) {
+    .todo-input-box input {
+        width: 250px;
+    }
+    .todo-input-wrapper {
+        gap: 0.9rem;
+    }
+    .primaryButton {
+        width: 18vw;
+    }
+    .todo-list-item h3 {
+        font-size: 20px;
+    }
+    .todo-list-item p {
+        font-size: 12px;
+    }
+    .icons {
+        font-size: 22px;
+    }
+}
+@media (max-width: 500px) {
+    .todo-input-box input {
+        width: 220px;
+    }
+    .todo-input-box {
+        margin-right: 20px;
+    }
+    .primaryButton {
+        margin-top: 15px;
+        width: 20vw;
+    }
+    .todo-list-item h3 {
+        font-size: 17px;
+    }
+    .todo-list-item p {
+        font-size: 10px;
+    }
+    .icons {
+        font-size: 20px;
+    }
+    .todo-list-item {
+        padding: 0.7rem 1.2rem;
+    }
+}
+@media (max-width: 425px) {
+    .primaryButton {
+        width: 25vw;
+    }
+}
